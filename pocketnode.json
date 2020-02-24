@@ -1,0 +1,24 @@
+{
+    "server": {
+        "motd": "PocketNode Server",
+        "ip": "0.0.0.0",
+        "port": 20014,
+        "language": "ru",
+        "whitelist": false,
+        "max-players": 20,
+        "gamemode": 1,
+        "online-mode": false,
+        "player-network-message": true,
+        "level": {
+            "name": "world",
+            "type": "flat"
+        }
+    },
+    "network": {
+        "batch-threshold": 256,
+        "compression-level": 7
+    },
+    "debugging": {
+        "level": 2
+    }
+}

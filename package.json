@@ -1,0 +1,29 @@
+{
+  "name": "pocketnode",
+  "version": "0.0.5",
+  "description": "Server software written in Javascript for Minecraft: PE",
+  "main": "src/pocketnode/PocketNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "rm -rf ./docs && jsdoc ./ -r -c ./jsdoc.json -d docs"
+  },
+  "keywords": [
+    "pocketedition",
+    "pe",
+    "mcpe",
+    "minecraftpe",
+    "mcbe"
+  ],
+  "author": "eDroid",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "pocketnode-binarystream": "git+https://github.com/PocketNode/PocketNode-BinaryStream.git",
+    "pocketnode-language": "git+https://github.com/PocketNode/PocketNode-Language.git",
+    "raknet": "git+https://github.com/PocketNode/RakNet.git",
+    "time-stamp": "^2.0.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.0"
+  }
+}

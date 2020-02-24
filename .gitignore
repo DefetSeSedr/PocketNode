@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#ignore redme.txt
+\!readme!.txt
+
+#ignore the server settings file
+#/pocketnode.json

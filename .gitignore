@@ -104,7 +104,7 @@ dist
 .tern-port
 
 #ignore redme.txt
-\!readme!.txt
+#\!readme!.txt
 
 #ignore the server settings file
 #/pocketnode.json
